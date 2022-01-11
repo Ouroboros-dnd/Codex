@@ -7,7 +7,7 @@
 		</update>
 	</info>
 	
-	<element name="Ancient Elf" type="Race" source="Fester's List of Monsters and Races" id="ID_OBC_FLMC_RACE_ANCIENT_ELF">
+	<element name="Ancient Elf" type="Race" source="Fester's List of Monsters and Races" id="ID_OBC_FLMR_RACE_ANCIENT_ELF">
 		<description>
 			<p></p>
 			<h4>HEADING</h4>
@@ -22,7 +22,7 @@
 			<p class="indent"><strong><em>Age.</em></strong> Although ancient elves reach physical maturity at about the same age as humans. An ancient elf typically claims adulthood and an adult name around the age of 150 and can live to be 1000 years old.</p>
 			<p class="indent"><strong><em>Size.</em></strong> Ancient elves range from under 5 to over 6 feet tall and have slender builds. Your size is Medium.</p>
 			<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 30 feet.</p>
-			<p class="indent"><strong><em>Darkvision.</em></strong>  You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>
+			<p class="indent"><strong><em>Darkvision.</em></strong> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>
 			<p class="indent"><strong><em>Keen Senses.</em></strong> You have proficiency in the Perception skill.</p>
 			<p class="indent"><strong><em>Fey Connection.</em></strong> You are immune to being charmed, and magic can’t put you to sleep.</p>
 			<p class="indent"><strong><em>Trance.</em></strong> Elves don’t need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is “trance.”) While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.</p>
@@ -36,7 +36,7 @@
 			<stat name="innate speed" value="30" bonus="base" />
 			<grant type="Size" id="ID_SIZE_MEDIUM" />
 			<grant type="Vision" id="ID_VISION_DARKVISION" />
-			<grant type="Grants" id="ID_OBC_FLMC_GRANTS_ANCIENT_ELF"/>
+			<grant type="Grants" id="ID_OBC_FLMR_GRANTS_ANCIENT_ELF"/>
 
 			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
 			<grant type="Language" id="ID_LANGUAGE_ELVISH" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
@@ -44,14 +44,14 @@
 			<select type="Language" name="Customized Language" supports="Custom Race Language" number="2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
 
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_KEEN_SENSES" />
-			<grant type="Racial Trait" id="ID_OBC_FLMC_RACIAL_TRAIT_FEY_CONNECTION" />
+			<grant type="Racial Trait" id="ID_OBC_FLMR_RACIAL_TRAIT_FEY_CONNECTION" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_TRANCE" />
-			<grant type="Racial Trait" id="ID_OBC_FLMC_RACIAL_TRAIT_ANCIENT_ELF_SKILL_OF_ANCIENTS" />
-			<grant type="Racial Trait" id="ID_OBC_FLMC_RACIAL_TRAIT_ANCIENT_ELF_ELVEN_SPELLCASTING" />
+			<grant type="Racial Trait" id="ID_OBC_FLMR_RACIAL_TRAIT_ANCIENT_ELF_SKILL_OF_ANCIENTS" />
+			<grant type="Racial Trait" id="ID_OBC_FLMR_RACIAL_TRAIT_ANCIENT_ELF_ELVEN_SPELLCASTING" />
 		</rules>
 	</element>
 
-	<element name="Fey Connection" type="Racial Trait" source="Fester's List of Monsters and Races" id="ID_OBC_FLMC_RACIAL_TRAIT_FEY_CONNECTION">
+	<element name="Fey Connection" type="Racial Trait" source="Fester's List of Monsters and Races" id="ID_OBC_FLMR_RACIAL_TRAIT_FEY_CONNECTION">
 		<description>
 			<p>You are immune to being charmed, and magic cannot put you to sleep.</p>
 		</description>
@@ -60,7 +60,7 @@
 		</sheet>
 	</element>
 
-	<element name="Skill of Ancients" type="Racial Trait" source="Fester's List of Monsters and Races" id="ID_OBC_FLMC_RACIAL_TRAIT_ANCIENT_ELF_SKILL_OF_ANCIENTS">
+	<element name="Skill of Ancients" type="Racial Trait" source="Fester's List of Monsters and Races" id="ID_OBC_FLMR_RACIAL_TRAIT_ANCIENT_ELF_SKILL_OF_ANCIENTS">
 		<description>
 			<p>You can select one skill proficiency and expertise of your choice.</p>
 		</description>
@@ -71,19 +71,19 @@
 		</rules>
 	</element>
 
-	<element name="Elven Spellcasting" type="Racial Trait" source="Fester's List of Monsters and Races" id="ID_OBC_FLMC_RACIAL_TRAIT_ANCIENT_ELF_ELVEN_SPELLCASTING">
+	<element name="Elven Spellcasting" type="Racial Trait" source="Fester's List of Monsters and Races" id="ID_OBC_FLMR_RACIAL_TRAIT_ANCIENT_ELF_ELVEN_SPELLCASTING">
 		<description>
 			<p>You can choose one cantrip from the ancient elf spell list.</p>
 			<p class="indent">Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race).</p>
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Racial Trait" name="Spellcasting Ability (Elven Spellcasting)" supports="ID_OBC_FLMC_RACIAL_TRAIT_ANCIENT_ELF_ELVEN_SPELLCASTING_INTELLIGENCE|ID_OBC_FLMC_RACIAL_TRAIT_ANCIENT_ELF_ELVEN_SPELLCASTING_MAGIC_WISDOM|ID_OBC_FLMC_RACIAL_TRAIT_ANCIENT_ELF_ELVEN_SPELLCASTING_CHARISMA" />
+			<select type="Racial Trait" name="Spellcasting Ability (Elven Spellcasting)" supports="ID_OBC_FLMR_RACIAL_TRAIT_ANCIENT_ELF_ELVEN_SPELLCASTING_INTELLIGENCE|ID_OBC_FLMR_RACIAL_TRAIT_ANCIENT_ELF_ELVEN_SPELLCASTING_MAGIC_WISDOM|ID_OBC_FLMR_RACIAL_TRAIT_ANCIENT_ELF_ELVEN_SPELLCASTING_CHARISMA" />
 			<select type="Spell" name="Elven Spellcasting" supports="Ancient Elf Spells,0" />
 		</rules>
 	</element>
 
-	<element name="Intelligence (Elven Spellcasting)" type="Racial Trait" source="Fester's List of Monsters and Races" id="ID_OBC_FLMC_RACIAL_TRAIT_ANCIENT_ELF_ELVEN_SPELLCASTING_INTELLIGENCE">
+	<element name="Intelligence (Elven Spellcasting)" type="Racial Trait" source="Fester's List of Monsters and Races" id="ID_OBC_FLMR_RACIAL_TRAIT_ANCIENT_ELF_ELVEN_SPELLCASTING_INTELLIGENCE">
 		<compendium display="false" />
 		<description>
 			<p>Your spellcasting ability for elven spells is Intelligence.</p>
@@ -93,7 +93,7 @@
 		</sheet>
 	</element>
 	
-	<element name="Wisdom (Elven Spellcasting)" type="Racial Trait" source="Fester's List of Monsters and Races" id="ID_OBC_FLMC_RACIAL_TRAIT_ANCIENT_ELF_ELVEN_SPELLCASTING_MAGIC_WISDOM">
+	<element name="Wisdom (Elven Spellcasting)" type="Racial Trait" source="Fester's List of Monsters and Races" id="ID_OBC_FLMR_RACIAL_TRAIT_ANCIENT_ELF_ELVEN_SPELLCASTING_MAGIC_WISDOM">
 		<compendium display="false" />
 		<description>
 			<p>Your spellcasting ability for elven spells is Wisdom.</p>
@@ -103,7 +103,7 @@
 		</sheet>
 	</element>
 
-	<element name="Charisma (Elven Spellcasting)" type="Racial Trait" source="Fester's List of Monsters and Races" id="ID_OBC_FLMC_RACIAL_TRAIT_ANCIENT_ELF_ELVEN_SPELLCASTING_CHARISMA">
+	<element name="Charisma (Elven Spellcasting)" type="Racial Trait" source="Fester's List of Monsters and Races" id="ID_OBC_FLMR_RACIAL_TRAIT_ANCIENT_ELF_ELVEN_SPELLCASTING_CHARISMA">
 		<compendium display="false" />
 		<description>
 			<p>Your spellcasting ability for elven spells is Charisma.</p>
@@ -121,11 +121,11 @@
 			<p>Your character's lineage is Ancient Elf.</p>
 		</description>
 		<rules>
-			<grant type="Grants" id="ID_OBC_FLMC_GRANTS_ANCIENT_ELF"/>
+			<grant type="Grants" id="ID_OBC_FLMR_GRANTS_ANCIENT_ELF"/>
 		</rules>
 	</element>
 
-	<element name="Elf (Ancient)" type="Grants" source="Fester's List of Monsters and Races" id="ID_OBC_FLMC_GRANTS_ANCIENT_ELF">
+	<element name="Elf (Ancient)" type="Grants" source="Fester's List of Monsters and Races" id="ID_OBC_FLMR_GRANTS_ANCIENT_ELF">
 		<compendium display="false" />
 		<sheet display="false" />
 		<rules>
