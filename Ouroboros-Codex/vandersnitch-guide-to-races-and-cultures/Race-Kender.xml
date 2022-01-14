@@ -45,6 +45,7 @@
 			<select type="Ability Score Improvement" name="Ability Score Improvement Option (Kender)" supports="Custom Ability Score Improvement Option" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
 			<grant type="Size" id="ID_SIZE_SMALL" />
 			<grant type="Vision" id="ID_VISION_DARKVISION" />
+			<stat name="innate speed" value="30" bonus="base" />
 
 			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
 			<grant type="Language" id="ID_OBC_VGRC_LANGUAGE_KENDER" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
