@@ -760,8 +760,8 @@
 			<set name="slot">misc</set>
 		</setters>
 		<rules>
-			<select type="Proficiency" name="Skill Proficiency (Incomplete Ring of Chaos)" supports="ID_PROFICIENCY_SKILL_PERSUASION|ID_PROFICIENCY_SKILL_DECEPTION|ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_INTIMIDATION" requirements="!ID_OBC_CP_MAGIC_ITEM_KEY_OF_CHAOS" />
-			<select type="Proficiency" name="Skill Proficiency (Complete Ring of Chaos)" supports="Kira Chaos Orb" requirements="ID_OBC_CP_MAGIC_ITEM_KEY_OF_CHAOS" />
+			<select type="Proficiency" name="Skill Proficiency (Incomplete Ring of Chaos)" number="2" supports="ID_PROFICIENCY_SKILL_PERSUASION|ID_PROFICIENCY_SKILL_DECEPTION|ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_INTIMIDATION" requirements="!ID_OBC_CP_MAGIC_ITEM_KEY_OF_CHAOS" />
+			<select type="Proficiency" name="Skill Proficiency (Complete Ring of Chaos)" supports="Kira Chaos Orb" number="2" requirements="ID_OBC_CP_MAGIC_ITEM_KEY_OF_CHAOS" />
 			<grant type="Grants" id="ID_OBC_CP_GRANTS_KIRA_TRAITS" />
 			<grant type="Racial Trait" id="ID_OBC_CP_RACIAL_TRAIT_KIRA_PIETY_VALUE_3" />
 			<grant type="Racial Trait" id="ID_OBC_CP_RACIAL_TRAIT_KIRA_PIETY_VALUE_10" requirements="ID_OBC_CP_MAGIC_ITEM_KEY_OF_CHAOS" />
