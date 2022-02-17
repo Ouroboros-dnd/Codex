@@ -724,9 +724,20 @@
 
 	<element name="Key of Chaos" type="Magic Item" source="Ouroboros: Crying Potatoes" id="ID_OBC_CP_MAGIC_ITEM_KEY_OF_CHAOS">
 		<description>
-			<p>The key appears as an rectangular curved piece of metal made of bronze with golden inlays. there are indents on the far edges that imply the item is meant to attach to something larger. It is easily tied with leather string to be the amulet of a crude necklace.</p>
+			<p>As one of the oldest divines of Arune, Kira came from the weave into a world that only new life and death. With him, chaos was brought to the world in the form of sudden unpredictabilities in the everyday world. Some people, such as the natives of the Nailen jungles, embraced the every present change. Others, such as the voidist followers in Evelain, sought to remove his presence in thier everyday lives.</p>
+		 	<p class="indent">Galeno Lituld, of the Order Oblivion, took it upon himself to end the reign of the god of chaos once and for all. While the original texts portraying the battle have long since been expunged from arune's annals of history, it is still widely known, that the mortal soldier won, but at a great cost. The only renmants le of the divine are trapped within his artifact, waiting to be reborn into the world, and once more bring about the tides of chaos.</p>
+			<p class="indent">The Relics of Chaos can be found together in the form of a functioning orb of chaos, or in it's shattered form as the key, ring, and orb of chaos. The key appears as an rectangular curved peice of metal made of bronze with golden inlays. there are indents on the far edges that imply the item is ment to attach to something larger. The Ring of Chaos is bronze with spiraling golden enlays and a suspicious gap in on one side of the lattice work giving it the appearance of a torque. This ring somewhat exible, despite being made of metal and is commonly as a bracelet, armband or necklace depending on the size of the wearer. The Orb of Chaos is a perfect bronze sphere covered in archaic, swirling gold inlay script. Should the artifact be intact, a blocky tarus that changes it's axis of rotation at random spins about the ring.</p>
+			<p class="indent">When being used, the inlays of each peice of the artifact will grow with a so prismatic light. To attune to the key or ring of chaos, you must spend a short rest in meditation over the artifacts. In the event that you have the key on your person while trying to attune to the ring, these two artifacts will merge together to form a completed relic. The orb of Chaos is unable to be attuned to unless the full artifact is intact</p>
+			<p class="indent"><strong><em>Random Properties.</em></strong> The Ring of Chaos has the following random properties:</p>
+			<ul>
+				<li style="margin-left:1em">1 minor beneficial property</li>
+				<li style="margin-left:1em">1 minor detremental property</li>
+			</ul>
 			<p><strong><em>Follower of Chaos.</em></strong> While holding this item you're piety with the god Kira is set to a minimum of 3, allowing you to gain the ability to draw the attention of the free spirited god of chaos and manifest his power in the following ways:</p>
 			<p class="indent">• <strong>Kira's Acolyte.</strong> You can call on Kira's blessing and cast chaotic bolt with this trait. You can cast the spell in this way a number of times equal to your Charisma modifier (minimum of once). You regain all expended uses when you finish a long rest. Charisma is your spellcasting ability for this spell.</p>
+			<div class="reference">
+				<div element="ID_WOTC_DMG_ARTIFACT_TABLE" />
+			</div>
 		</description>
 		<setters>
 			<set name="category">Wondrous Items</set>
@@ -744,11 +755,33 @@
 
 	<element name="Ring of Chaos" type="Magic Item" source="Ouroboros: Crying Potatoes" id="ID_OBC_CP_MAGIC_ITEM_RING_OF_CHAOS">
 		<description>
-			<p>As one of the oldest divines of Arune, Kira came from the weave into a world that only new life and death. With him, chaos was brought to the world in the form of sudden unpredictabilities in the everyday world. Some people, such as the natives of the Nailen jungles, embraced the every present change. Others, such as the voidist followers in Evelain, sought to remove his presence in thier everyday lives.</p>
-			<p class="indent">Galeno Lituld, of the Order Oblivion, took it upon himself to end the reign of the god of chaos once and for all. While the original texts portraying the battle have long since been expunged from arune's annals of history, it is still widely.</p>
-			<p class="indent">The Relics of Chaos can be found together in the form of a functioning orb of chaos, or in it's shattered form as the key, ring, and orb of chaos. The key appears as an rectangular curved peice of metal made of bronze with golden inlays. there are indents on the far edges that imply the item is ment to attach to something larger. The Ring of Chaos is bronze with spiraling golden enlays and a suspicious gap in on one side of the lattice work giving it the appearance of a torque. This ring somewhat flexible, despite being made of metal and is commonly as a bracelet, armband or necklace depending on the size of the wearer. The Orb of Chaos is a perfect bronze sphere covered in archaic, swirling gold inlay script. Should the artifact be intact, a blocky tarus that changes it's axis of rotation at random spins about the ring.</p>
-			<p class="indent">When being used, the inlays of each peice of the artifact will grow with a soft prismatic light. To attune to the key or ring of chaos, you must spend a short rest in meditation over the artifacts. In the event that you have the key on your person while trying to attune to the ring, these two artifacts will merge together to form a completed relic. The orb of Chaos is unable to be attuned to unless the full artifact is intact.</p>
-			
+			<p>As one of the oldest divines of Arune, Kira came from the weave into a world that only new life and death. With him, chaos was brought to the world in the form of sudden unpredictabilities in the everyday world. Some people, such as the natives of the Nailen jungles, embraced the every present change. Others, such as the voidist followers in Evelain, sought to remove his presence in their everyday lives.</p>
+			<p class="indent">Galeno Lituld, of the Order Oblivion, took it upon himself to end the reign of the god of chaos once and for all. While the original texts portraying the battle have long since been expunged from Arune's annals of history, it is still widely.</p>
+			<p class="indent">The Relics of Chaos can be found together in the form of a functioning orb of chaos, or in it's shattered form as the key, ring, and orb of chaos. The key appears as an rectangular curved piece of metal made of bronze with golden inlays. there are indents on the far edges that imply the item is meant to attach to something larger. The Ring of Chaos is bronze with spiraling golden inlays and a suspicious gap in on one side of the lattice work giving it the appearance of a torque. This ring somewhat flexible, despite being made of metal and is commonly as a bracelet, armband or necklace depending on the size of the wearer. The Orb of Chaos is a perfect bronze sphere covered in archaic, swirling gold inlay script. Should the artifact be intact, a blocky tarus that changes it's axis of rotation at random spins about the ring.</p>
+			<p class="indent">When being used, the inlays of each piece of the artifact will grow with a soft prismatic light. To attune to the key or ring of chaos, you must spend a short rest in meditation over the artifacts. In the event that you have the key on your person while trying to attune to the ring, these two artifacts will merge together to form a completed relic. The orb of Chaos is unable to be attuned to unless the full artifact is intact.</p>
+			<p class="indent"><strong><em>Random Properties.</em></strong> The Ring of Chaos has the following random properties:</p>
+			<ul>
+				<li style="margin-left:1em">1 minor beneficial property</li>
+				<li style="margin-left:1em">1 minor detremental property</li>
+			</ul>
+			<p><strong><em>Properties of the Ring.</em></strong> Without the key, the ring bestows the following benefits:</p>
+			<p class="indent"><strong><em>Summon Tempest.</em></strong> As an action you can use the ring to summon a tempest horse to be your steed for 24 hours. Once this trait is used, it can be used again for 5 days. If you have a lawful alignment, the horse has a 50% chance to ignore your orders, including a command to return to the ring. If you attempt to mount the Tempest while it is ignoring your orders, she may attempt to attack you.</p>
+			<p class="indent"><strong><em>Gain Proficiency.</em></strong> While attuned to this item you gain proficiency with any two of the following skills; persuasion, deception, intimidation, or insight.</p>
+			<p class="indent"><strong><em>Follower of Chaos.</em></strong> While attuned to this item you're piety with the god Kira is set to a minimum of 10, allowing you to gain the ability to draw the attention of the free spirited god of chaos and manifest his power in the following ways:</p>
+			<ul>
+				<li style="margin-left:1em"><em>Kira’s Acolyte</em>. You can call on Kira’s blessing and cast chaotic bolt with this trait. You can cast the spell in this way a number of times equal to your Charisma modifier (minimum of once). You regain all expended uses when you finish a long rest. Charisma is your spellcasting ability for this spell. </li>
+			</ul>
+			<p><strong><em>Properties of the Key Ring.</em></strong> If you attempt to attune to the ring while the key is on your character, the two artifacts will magically fuse together, forming a more complete taurus. The two pieces will not be able to be separated except by way of Mordekines Disjointment, DispelMagic, Wish, or Miracle. In addition to the two items becoming one artifact, they bestow the following effects:</p>
+			<p class="indent"><strong><em>Enhanced Proficiency.</em></strong> While attuned to the completed ring you gain proficiency with any two of the following skills; persuasion, deception, intimidation, or insight. If you're already proficient in these skills, your proficiency bonus is doubled for any check you make with it. This replaces the incomplete ring's <i>Gain Proficiency</i> feature.</p>
+			<p class="indent"><strong><em>Angered Spirit.</em></strong> You take 8d10 psychic damage when you become attuned to the artifact.</p>
+			<p class="indent"><strong><em>Follower of Chaos.</em></strong> While attuned to this item you're piety with the god Kira is set to a minimum of 10, allowing you to gain the ability to draw the attention of the free spirited god of chaos and manifest his power in the following ways:</p>
+			<ul>
+				<li style="margin-left:1em"><em>Kira’s Acolyte</em>. You can call on Kira’s blessing and cast chaotic bolt with this trait. You can cast the spell in this way a number of times equal to your Charisma modifier (minimum of once). You regain all expended uses when you finish a long rest. Charisma is your spellcasting ability for this spell. </li>
+				<li style="margin-left:1em"><em>Kira’s Speaker</em>. You can cast suggestion with this trait, requiring no material components. Once you cast the spell in this way, you can’t do so again until you finish a long rest. Charisma is your spellcasting ability for this spell. </li>
+			</ul>
+			<div class="reference">
+				<div element="ID_WOTC_DMG_ARTIFACT_TABLE" />
+			</div>
 		</description>
 		<setters>
 			<set name="category">Wondrous Items</set>
@@ -768,7 +801,7 @@
 		</rules>
 	</element>
 
-	<element name="Orb Of Chaos" type="Magic Item" source="Ouroboros: Crying Potatoes" id="ID_OBC_CP_MAGIC_ITEM_ORB_OF_CHAOS">
+	<element name="Orb of Chaos" type="Magic Item" source="Ouroboros: Crying Potatoes" id="ID_OBC_CP_MAGIC_ITEM_ORB_OF_CHAOS">
 		<description>
 			<p>As one of the oldest divines of Arune, Kira came from the weave into a world that only new life and death. With him, chaos was brought to the world in the form of sudden unpredictabilities in the everyday world. Some people, such as the natives of the Nailen jungles, embraced the every present change. Others, such as the voidist followers in Evelain, sought to remove his presence in their everyday lives. </p>
 			<p class="indent">Galeno Lituld, of the Order Oblivion, took it upon himself to end the reign of the god of chaos once and for all. While the original texts portraying the battle have long since been expunged from Arune's annals of history, it is still widely known, that the mortal soldier won, but at a great cost. The only remnants left of the divine are trapped within his artifact, waiting to be reborn into the world, and once more bring about the tides of chaos. </p>
