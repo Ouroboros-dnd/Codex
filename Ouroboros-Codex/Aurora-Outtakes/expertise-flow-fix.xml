@@ -34,11 +34,11 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Class Feature" name="Expertise (Bard 3)" level="3" number="2" supports="Expertise,Skill" requirements="!ID_INTERNAL_GRANT_EXPERTISE_FLOW_FIX" />
-			<select type="Class Feature" name="Expertise (Bard 10)" level="10" number="2" supports="Expertise,Skill" requirements="!ID_INTERNAL_GRANT_EXPERTISE_FLOW_FIX" />
+			<select type="Class Feature" name="Expertise (Bard 3)" level="3" number="2" supports="ID_INTERNAL_SUPPORT_EXPERTISE" requirements="!ID_INTERNAL_GRANT_EXPERTISE_FLOW_FIX" />
+			<select type="Class Feature" name="Expertise (Bard 10)" level="10" number="2" supports="ID_INTERNAL_SUPPORT_EXPERTISE" requirements="!ID_INTERNAL_GRANT_EXPERTISE_FLOW_FIX" />
 
-			<select type="Proficiency" name="Expertise (Bard 3)" level="3" number="2" supports="Expertise,Skill" requirements="ID_INTERNAL_GRANT_EXPERTISE_FLOW_FIX" />
-			<select type="Proficiency" name="Expertise (Bard 10)" level="10" number="2" supports="Expertise,Skill" requirements="ID_INTERNAL_GRANT_EXPERTISE_FLOW_FIX" />
+			<select type="Proficiency" name="Expertise (Bard 3)" level="3" number="2" supports="ID_INTERNAL_SUPPORT_EXPERTISE" requirements="ID_INTERNAL_GRANT_EXPERTISE_FLOW_FIX" />
+			<select type="Proficiency" name="Expertise (Bard 10)" level="10" number="2" supports="ID_INTERNAL_SUPPORT_EXPERTISE" requirements="ID_INTERNAL_GRANT_EXPERTISE_FLOW_FIX" />
 		</rules>
 	</element>
 
@@ -69,8 +69,8 @@
 			<description>Choose one of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses the chosen skill. You can also speak, read, and write two additional languages of your choice.</description>
 		</sheet>
 		<rules>
-			<select type="Class Feature" name="Expertise (Canny)" supports="Expertise" requirements="!ID_INTERNAL_GRANT_EXPERTISE_FLOW_FIX" />
-			<select type="Proficiency" name="Expertise (Canny)" supports="Expertise" requirements="ID_INTERNAL_GRANT_EXPERTISE_FLOW_FIX" />
+			<select type="Class Feature" name="Expertise (Canny)" supports="ID_INTERNAL_SUPPORT_EXPERTISE" requirements="!ID_INTERNAL_GRANT_EXPERTISE_FLOW_FIX" />
+			<select type="Proficiency" name="Expertise (Canny)" supports="ID_INTERNAL_SUPPORT_EXPERTISE" requirements="ID_INTERNAL_GRANT_EXPERTISE_FLOW_FIX" />
 			<select type="Language" name="Language (Canny)" number="2" />			
 		</rules>
 	</element>
