@@ -3,7 +3,7 @@
 	<info>
 		<name>Quantum Resonance Campaign Assets</name>
 		<author>Basic126</author>
-		<update version="0.0.2">
+		<update version="0.0.1">
 			<file name="Campaign-Quantum-Resonance.xml" url="https://raw.githubusercontent.com/Ouroboros-dnd/Codex/Master/Ouroboros-Codex/Campaigns/Campaign-Quantum-Resonance.xml" />
 		</update>
 	</info>
@@ -40,23 +40,5 @@
 			• You can cast a spell as an opportunity attack. The spell must have a casting time of 1 action and must target only that creature.&#13;
 			• Being within 5 feet if an enemy doesn't impose Disadvantage on your Attack Rolls with Spells.</description>
 		</sheet>
-	</element>
-
-	<!--Items-->
-	<element name="Spider poison" type="Item" source="Ouroboros: Quantum Resonance" id="ID_OBC_QR_ITEM_POISON_SPIDER">
-		<description>
-			<p>This poison must be harvested from a dead or incapacitated giant poisonous spider. A creature subjected to this poison must succeed on a DC 11 Constitution saving throw, taking 10 (2d8) poison damage on a failed save, or half as much damage on a successful one.</p>
-			<div class="reference">
-				<div element="ID_INTERNAL_SUPPORT_POISON_INJURY" />
-			</div>
-		</description>
-		<setters>
-			<set name="keywords">poison,injure,injury</set>
-			<set name="category">Poison</set>
-			<set name="cost" currency="gp">0</set>
-			<set name="weight" lb="0.5">½ lb.</set>
-			<set name="stackable">true</set>
-		</setters>
-		<sheet alt="Spider poison (Injury)" />
 	</element>
 </elements>

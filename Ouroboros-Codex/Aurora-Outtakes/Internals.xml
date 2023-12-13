@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name></name>
-		<update version="0.0.3">
+		<update version="0.0.2">
 			<file name="Internals.xml" url="https://raw.githubusercontent.com/Ouroboros-dnd/Codex/Master/Ouroboros-Codex/Aurora-Outtakes/Internals.xml" />
 		</update>
 	</info>
@@ -115,65 +115,8 @@
 			<grant type="Grants" id="ID_INTERNAL_GRANT_FEATURE_PACT_MAGIC"/>
 		</rules>
 	</append>
-
-	<!--Other-->
-	<element name="Chaotic Stupid" type="Alignment" source="Internal" id="ID_ALIGNMENT_CHAOTIC_STUPID">
-		<supports />
-		<description>
-			<p>Chaotic stupid (CS) character abides by no rules whatsoever. Not laws, not customs, not ethics, not even common sense. Actually, especially not common sense. Or for that matter, any concept of basic self-preservation.</p>
-		</description>
-		<setters>
-			<set name="Abbreviation">CS</set>
-		</setters>
-		<rules />
-	</element>
-
-	<element name="Lawful Stupid" type="Alignment" source="Internal" id="ID_ALIGNMENT_LAWFUL_STUPID">
-		<supports />
-		<description>
-			<p>A Lawful Stupid (LS) character leans toward such rigid adherence to the law that anybody who breaks any law, anywhere, for any reason, is the enemy.</p>
-		</description>
-		<setters>
-			<set name="Abbreviation">LS</set>
-		</setters>
-		<rules />
-	</element>
-
-	<element name="Stupid Evil" type="Alignment" source="Internal" id="ID_ALIGNMENT_STUPID_EVIL">
-		<supports />
-		<description>
-			<p>A Stupid Evil (SE) character feels the need to do evil things even at times when such actions are clearly not in their best interests, sometimes to the point where it goes against basic self-preservation.</p>
-		</description>
-		<setters>
-			<set name="Abbreviation">SE</set>
-		</setters>
-		<rules />
-	</element>
-
-	<element name="Stupid Good" type="Alignment" source="Internal" id="ID_ALIGNMENT_STUPID_GOOD">
-		<supports />
-		<description>
-			<p>A Stupid Good (SG) character is "good" to the point of being unable to comprehend that someone else might be bad.</p>
-		</description>
-		<setters>
-			<set name="Abbreviation">SG</set>
-		</setters>
-		<rules />
-	</element>
-
-	<element name="Stupid Neutral" type="Alignment" source="Internal" id="ID_ALIGNMENT_STUPID_NEUTRAL">
-		<supports />
-		<description>
-			<p>A Stupid Neutral (SN) character tends to think of morality as balancing a metaphysical checkbook; any evil deed can be 'cancelled out' by committing an equally good deed.</p>
-		</description>
-		<setters>
-			<set name="Abbreviation">SN</set>
-		</setters>
-		<rules />
-	</element>
-
+	
 </elements>
-
 	<!--By definition there are no resistances for conditions
 	<element name="Resistance (Blinded Condition)" type="Condition" source="Internal" id="ID_INTERNAL_CONDITION_IMPAIRMENT_RESISTANCE_BLINDED">
 		<supports>Resistance</supports>
