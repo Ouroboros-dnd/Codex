@@ -2,8 +2,8 @@
 <elements>
 	<info>
 		<name>Guardians Campaign Assets</name>
-		<author>Basic126</author>
-		<update version="0.0.0.1">
+		<author>Ziphmose</author>
+		<update version="0.0.2">
 			<file name="Campaign-Guardians.xml" url="https://raw.githubusercontent.com/Ouroboros-dnd/Codex/Master/Ouroboros-Codex/Campaigns/Campaign-Guardians.xml" />
 		</update>
 	</info>
@@ -620,11 +620,4 @@
 			<stat name="LightAffinity:level" value="1" />
 		</rules>
 	</element>
-
-
-
-
-
-
-
 </elements>
