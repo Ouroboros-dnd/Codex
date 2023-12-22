@@ -3,8 +3,8 @@
 	<info>
 		<name></name>
 		<update version="0.0.1">
-			<!-- <file name="temp.xml" url="https://raw.githubusercontent.com/Ouroboros-Codex/Aurora-Outtakes/temp.xml" /> -->
-			<file name="temp.xml" url="https://raw.githubusercontent.com/Ouroboros-Codex/temp.xml" />
+			<!-- <file name="temp.xml" url="https://raw.githubusercontent.com/Ouroboros-Codex/Master/Aurora-Outtakes/temp.xml" /> -->
+			<file name="temp.xml" url="https://raw.githubusercontent.com/Ouroboros-Codex/Master/temp.xml" />
 		</update>
 	</info>
 
