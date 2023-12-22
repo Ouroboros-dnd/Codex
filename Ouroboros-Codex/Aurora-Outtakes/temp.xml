@@ -2,13 +2,14 @@
 <elements>
 	<info>
 		<name></name>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<!-- <file name="temp.xml" url="https://raw.githubusercontent.com/Ouroboros-dnd/Codex/Master/Ouroboros-Codex/Aurora-Outtakes/temp.xml" /> -->
 			<file name="temp.xml" url="https://raw.githubusercontent.com/Ouroboros-dnd/Codex/Master/temp.xml" />
 		</update>
 	</info>
 
 	<!-- This is the BAD temp file -->
+	<!-- it probably wont be updated -->
 
 
 </elements>
