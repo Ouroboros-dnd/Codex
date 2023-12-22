@@ -2,7 +2,7 @@
 <index>
 	<info>
 		<name>Konard's Aurora Integrations</name>
-		<update version="0.0.8.2">
+		<update version="0.0.9">
 			<file name="Aurora-Outtakes.index" url="https://raw.githubusercontent.com/Ouroboros-dnd/Codex/Master/Ouroboros-Codex/Aurora-Outtakes.index" />
 		</update>
 	</info>
@@ -20,6 +20,6 @@
 		<obsolete name="background-custom.xml" url="https://raw.githubusercontent.com/Ouroboros-dnd/Codex/Master/Ouroboros-Codex/Aurora-Outtakes/background-custom.xml" />
 
 
-		<file name="temp.xml" url="https://raw.githubusercontent.com/Ouroboros-dnd/Codex/Master/Ouroboros-Codex/Aurora-Outtakes/temp.xml" />
+		<obsolete name="temp.xml" url="https://raw.githubusercontent.com/Ouroboros-dnd/Codex/Master/Ouroboros-Codex/Aurora-Outtakes/temp.xml" />
 	</files>
 </index>
